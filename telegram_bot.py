@@ -1,10 +1,8 @@
 import telebot
-# from telebot import apihelper, types
 import health_news
 
 
-# apihelper.proxy = {'https':'socks5://v3_178771112:DUbZPXCw@s5.priv.opennetwork.cc:1080'}
-bot = telebot.TeleBot('1254807828:AAGyxFz2q15uuJGn1jW43Rogp3EXJU1CNU4')
+bot = telebot.TeleBot('ENTER YOUR KEY')
 all_users = {}
 
 

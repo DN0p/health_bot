@@ -10,10 +10,7 @@ class RussiaNews:
         self.get_json()
 
     def get_json(self):
-        url = ('http://newsapi.org/v2/top-headlines?'
-               'country=ru&'
-               'category=health&'
-               'apiKey=4f520a93615b4a17bfcaa111d872b70c')
+        url = ('ENTER YOUR KEY')
         json_data = requests.get(url)
         self.my_data = json.loads(json_data.text)
 
